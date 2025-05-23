@@ -46,7 +46,7 @@ const SessionDetailsPage = () => { // Or rename to just "Session" and update exp
         <div className="flex-1 min-w-0">
           <p className="text-sm text-slate-500">Good Morning</p>
           <h1 className="text-2xl font-semibold text-slate-800 tracking-tight truncate">Sarah Joshia</h1>
-          <p className="text-xs text-slate-400 mt-0.5">Today, 27 Oct 2024</p>
+          <p className="text-xs text-slate-400 mt-0.5"></p>
         </div>
         <div className="flex-1 flex justify-center min-w-0 px-4">
           <h2 className="text-md font-medium text-slate-600 bg-slate-100 px-4 py-1.5 rounded-lg border border-slate-200 truncate">
