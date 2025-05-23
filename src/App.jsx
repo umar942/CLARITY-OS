@@ -16,7 +16,7 @@ import OnboardingScreen from "./Pages/OnboardingScreen";
 function App() {
   return (
     <>
-      {/* <div className="flex h-screen bg-black">
+      <div className="flex h-screen bg-black">
         <Sidebar />
         <div className="flex-1 flex flex-col overflow-hidden">
           <Routes>
@@ -24,6 +24,7 @@ function App() {
             <Route path="/sessions" element={<Chat />} />
             <Route path="/chat" element={<Chat />} />{" "}
             <Route path="/settings" element={<Settings />} />
+            <Route path="/anchor" element={<AnchorMessageScreen />} />
             <Route
               path="/analytics"
               element={
@@ -39,10 +40,10 @@ function App() {
             />
           </Routes>
         </div>
-      </div> */}
+      </div>
       <div>
-        {/* <AnchorMessageScreen /> */}
-        <Frame />
+        <AnchorMessageScreen />
+        {/* <Frame /> */}
         {/* <Question /> */}
         {/* <OnboardingScreen /> */}
       </div>
